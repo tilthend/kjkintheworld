@@ -1,0 +1,18 @@
+연산
+ - 파이썬 내 사칙연산 및 연산자
+ - 문자열 연산
+주석
+ - '#' 기호 활용
+indent(들여쓰기)
+ - colab은 indent 자동 적용
+ - indentation Error: 들여쓰기 에러
+ - 변수할당은 indent 쓰면 안됨
+ - indent 갯수는 항상 맞추기
+
+함수
+ - 반복적으로 사용되는 부분을 묶어서 재사용 가능하도록 만들어준다!
+ - input과 output or return 사이에서 ...
+ - def는 함수를 위한 정의(define)
+ - def 함수이름 (parameter1, parameter2, parameter3)
+ - parameter는 함수로부터 넘겨 받은 변수 또는 값 혹은 인자 라 칭함. "넘겨주는 값이다!"
+ - 마지막에 항상 콜론(:) 붙이기!
