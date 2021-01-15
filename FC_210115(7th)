@@ -1,0 +1,20 @@
+반복문
+ - 반복한다.
+ - 집합에 대한 순회를 돌며 일을 처리
+ - 반복하기위해서는 집합이 필요하다.
+ - for / in
+ - continue 아래는 모두 스킵
+ - break로 조건 종료(특정 조건 걸어줄때 활용)
+
+List comprehension
+ - 조건 필터 사용
+ - 처음 변수를 주고 그 변수가 새로 만들어지는 리스트에 담김
+ - 재밌음.
+
+문자열
+ - 문자의 길이
+ - len()는 공백도 counting
+ - startwith('')
+ - endwith('')
+ - replace
+ - strip for 공백제거
