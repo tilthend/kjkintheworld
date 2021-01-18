@@ -1,0 +1,12 @@
+인덱싱/슬라이싱
+- index 지정하여 색인? 
+- indexing은 범위 안에서만
+- fancy indexing: 특정 index의 집합의 값을 선택하여 추출
+- boolean 인덱싱: 조건 필터링 통해 boolean 값 이용한 색인
+- 값이 TRUE만 필터?
+- 조건을 주고 만족하는 애들만 가지고 올때 유용함
+arange
+- arange와 range를 같이 보고 이해 필요
+- np.arange // start와 stop 활용
+- 키워드 인자 활용하기
+- range는 for문을 돌려 활용
