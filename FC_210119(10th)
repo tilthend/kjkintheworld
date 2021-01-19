@@ -1,0 +1,23 @@
+정렬
+- np.sort()
+- 내림차순은 np.sort()[::-1]
+- arr.sort()
+- N차원 정렬
+  * N차원일때는 기준이 axis여야함
+  * axis 0 은 행 axis 1 은 열
+- argsort
+  * argsort는 index를 출력해줌
+  * index값을 받아서 나중에 활용할 필요 있을때 사용함.
+
+행렬
+- matrix
+- 엑셀은 행렬의 집합
+- numpy 덧샘은 shape이 같아야함
+- 곱셈
+ * 일반 곱셈은 덧셈뺄셈과 같음
+ * np.dot을 사용하면 실제 행렬의 곱을 활용 가능
+ * np.dot은 맞닿는 부분을 활용함을 참고
+ * a.dot(b)도 활용 가능
+ 
+Broadcasting
+- 전체 요소에 수식 실행
