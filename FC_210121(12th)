@@ -1,0 +1,10 @@
+판다스
+- 데이터 읽기
+- 메소드
+- info()
+- descrebe(): 산술연산 가능한 컬럼만 출력 가능
+- shape()
+- sort_values
+- sort_index
+- 결측값 색인
+- loc/iloc
