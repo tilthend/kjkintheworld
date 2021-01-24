@@ -1,0 +1,17 @@
+
+통계값
+- describe()
+- var()
+- std()
+- count()
+- median()
+- mode()
+피벗테이블
+- 두 개의 열을 각각 행 인덱스, 열 인덱스로 사용하여 데이터 조회 
+- pd.pivot_table(df, index='', columns='', values='')
+- aggfunc는 추가 계산 옵션임(np.sum, np.mean). default는 mean
+Group by
+multi index
+- 구분값이 2개이상
+- unstack은 멀티인덱스로 된 데이터프레임을 피벗 형테로 다시 변환해준다.
+- reset_index는 다시 원래 형태로 테이블을 복구함
