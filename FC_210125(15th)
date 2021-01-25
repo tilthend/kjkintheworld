@@ -1,0 +1,18 @@
+결측값 채우기
+- fillna()
+- inplace=True 이용해여 대체 가능
+
+빈값 제거
+- dropna()
+- axis=0은 행, axis=1은 열 제거
+- how='any'는 하나라도 있음 드랍
+- how='all'은 모두 NaN인경우 드랍
+중복 제거
+- drop_duplicate() :첫번쨰 값 유지, 이후 중복값 제거
+- keep='last'를 주면 나중값을 유지. default는 keep='first'임
+- 행전체를 날리는것도 가능함(데이터프래임 자체에 적용 가능)
+행/열 제거
+- drop을 사용해서 지운다
+- axis=1은 column을 날린다
+- row날리려거든 인덱스 적어주면 가능
+- 복수 row 날리려면 리스트 형태로 날려라
