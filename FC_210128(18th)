@@ -1,0 +1,10 @@
+select_dtyes
+- object와 object가 아닌것으로 구분
+- 숫자 데이터만 구분할때 활용 가능함.
+- 문자열 컬럼의 에러는 제외시킬 수 있음
+- .columns를 붙여서 인덱스만 저장 가능? 이해 잘 안감
+원핫인코딩(one hot encoding)
+- map 함수 사용
+- 일반적으로 머신러닝에서 
+- 이후 get_dummies 활용
+- prefix 활용해서 컬럼명 지정
