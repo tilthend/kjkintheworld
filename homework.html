@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+
+    * {
+        font-family: 'Jua', sans-serif;
+    }
+
+    .selling_product {
+
+        margin: auto;
+        width: auto;
+        height: 300px;
+        background-position: top;
+
+    }
+       .mybtn {
+
+           width: auto;
+           margin: auto;
+           display: block;
+           background-color: blue;
+           color: white;
+       }
+       .box{
+
+           width: 300px;
+           margin: auto;
+           display: white;
+
+       }
+
+       .text{
+            width: 600px;
+           margin: auto;
+
+       }
+
+</style>
+
+
+<body>
+
+<div class="selling_product">
+    <img
+            src="http://candle1.co.kr/web/product/tiny/201610/29_shop1_321413.jpg"
+            alt="Card image cap">
+</div>
+
+
+<div class="text">
+    <h1>
+        양초를 팝니다
+
+    </h1>
+    <h5>
+        가격: 1000원/개
+    </h5>
+    <h4>
+        이 양초는 사실 특별한 힘을 가지고 있어요. 양초를 켜고 소원을 빌면 짜자잔 뭐든디 이뤄지게 된답니다. 하나 사가세요!
+    </h4>
+
+</div>
+<div class="box">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-sm">주문자이름</span>
+  </div>
+  <input type="text" class="form-control" aria-label="주문자이름" aria-describedby="inputGroup-sizing-sm">
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">수량</button>
+        <textarea>--수량을 선택하세요--</textarea>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">1개</a>
+      <a class="dropdown-item" href="#">2개</a>
+      <a class="dropdown-item" href="#">3개</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">직접 입력</a>
+
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+</div>
+
+
+
+</div>
+
+<div class="box">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-sm">주소</span>
+  </div>
+  <input type="text" class="form-control" aria-label="주문자이름" aria-describedby="inputGroup-sizing-sm">
+
+<div class="box">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-sm">전화번호</span>
+  </div>
+  <input type="text" class="form-control" aria-label="주문자이름" aria-describedby="inputGroup-sizing-sm">
+<div>
+<button class="mybtn red-fond"> 주문하기</button>
+</div>
+</body>
+
+</html>
